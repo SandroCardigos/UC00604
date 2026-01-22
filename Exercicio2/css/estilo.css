@@ -1,0 +1,41 @@
+
+:root {
+    --rosa-pastel: #ffdeeb;
+    --creme: #fff9f0;
+    --doce-marrom: #6d4c41;
+}
+
+body {
+    background-color: var(--creme);
+    font-family: 'Poppins', sans-serif;
+    color: var(--doce-marrom);
+}
+
+.navbar {
+    background-color: var(--rosa-pastel) !important;
+}
+
+.btn-fofo {
+    background-color: #ffb7c5;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-fofo:hover {
+    background-color: #ff8fa3;
+    transform: scale(1.05);
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.footer {
+    background-color: var(--rosa-pastel);
+    padding: 20px 0;
+    margin-top: 50px;
+}
